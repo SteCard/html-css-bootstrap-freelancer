@@ -17,9 +17,8 @@ li {
     display: inline-block;
 }
 
-.section-marg-pad {
-    margin-bottom: 3%;
-    padding: 3% 0;
+.section-pad {
+    padding: 40px 0;
 }
   
 /* FONTS */
@@ -87,11 +86,6 @@ header .row {
 .about {
     background-color: #1abc9c;
     color: white;
-}
-
-.about .row {
-    flex-direction: column;
-    align-items: center;
 }
 
 .about p {
