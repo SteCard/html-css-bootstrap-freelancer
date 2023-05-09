@@ -55,7 +55,7 @@ header .row {
     height: 70px;
     line-height: 70px;
     vertical-align: center;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -83,6 +83,11 @@ header .row {
 }
 
 /* ABOUT */
+
+.pad-ab{
+    padding: 0 30px;
+}
+
 .about {
     background-color: #1abc9c;
     color: white;
@@ -96,6 +101,18 @@ header .row {
 .contact .row {
     flex-direction: column;
     align-items: center;
+}
+
+.custom-border-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.custom-border-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 /* SOCIALS */
@@ -139,4 +156,34 @@ footer {
     text-align: center;
     color: white;
     padding: 30px 0px;
+}
+
+/* STARS */
+
+.fa-star {
+    font-size: 2em;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+  
+.white_star, .blk_star {
+    margin: 20px 0;
+}
+  
+.white_star::after, .white_star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+  
+.blk_star::after, .blk_star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 150px;
+    border-radius: 2px;
+    background-color: black;
 }
